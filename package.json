@@ -1,6 +1,6 @@
 {
   "name": "dns-rcodes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Maps easy to remember names to DNS rcodes.",
   "main": "index.js",
   "scripts": {
