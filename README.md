@@ -6,7 +6,7 @@
 
 Maps easy to remember names to DNS RCODE (response code) values.
 <!-- ,
-[RFC2136](http://tools.ietf.org/html/rfc2136),
+,
 [RFC2930](http://tools.ietf.org/html/rfc2930),
 [RFC2845](http://www.iana.org/go/rfc2845),
 [RFC4635](http://tools.ietf.org/html/rfc4635),
@@ -32,7 +32,7 @@ Below is a list of exposed RCODEs organized by RFC.
 
 ### [RFC1035](http://tools.ietf.org/html/rfc1035)
 
-rcode | Name | Description
+RCODE | Name | Description
 ------|------|------------
 `0` | `NoError` | No error condition.
 `1` | `FormatError` | The name server was unable to interpret the query.
@@ -41,4 +41,12 @@ rcode | Name | Description
 `4` | `NotImplemented` | The name server does not support the requested kind of query.
 `5` | `Refused` | The name server refuses to perform the specified operation for policy reasons.  For example, a name server may not wish to provide the information to the particular requester, or a name server may not wish to perform a particular operation.
 
-###
+### [RFC2136](http://tools.ietf.org/html/rfc2136)
+
+RCODE | Name | Description
+------|------|------------
+`6` | `YXDomain` | Some name that ought not to exist, does exist.
+`7` | `YXRRSet` | Some RRset that ought not to exist, does exist.
+`8` | `NXRRSet` | Some RRset that ought to exist, does not exist.
+`9` | `NotAuth` |  The server is not authoritative for the zone named in the Zone Section.
+`10` | `NotZone` |  A name used in the Prerequisite or Update Section is not within the zone denoted by the Zone Section.

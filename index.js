@@ -10,5 +10,12 @@ module.exports = {
   'ServerFailure': 2,
   'NameError': 3,
   'NotImplemented': 4,
-  'Refused': 5
+  'Refused': 5,
+
+  // Defined in RFC2136 (http://tools.ietf.org/html/rfc2136)
+  'YXDomain': 6,
+  'YXRRSet': 7,
+  'NXRRSet': 8,
+  'NotAuth': 9,
+  'NotZone': 10
 };
