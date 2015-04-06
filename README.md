@@ -1,15 +1,14 @@
 # dns-rcodes
 Maps easy to remember names to DNS rcode (response code) values. The DNS rcodes
 exposed by the module are specified in the following RFCs:
-
-* [RFC1035](http://tools.ietf.org/html/rfc1035),
-* [RFC2136](http://tools.ietf.org/html/rfc2136),
-* [RFC2930](http://tools.ietf.org/html/rfc2930),
-* [RFC2845](http://www.iana.org/go/rfc2845),
-* [RFC4635](http://tools.ietf.org/html/rfc4635),
-* [RFC6672](http://tools.ietf.org/html/rfc6672),
-* [RFC6891](http://tools.ietf.org/html/rfc6891),
-* [RFC6895](http://tools.ietf.org/html/rfc6895)
+[RFC1035](http://tools.ietf.org/html/rfc1035),
+[RFC2136](http://tools.ietf.org/html/rfc2136),
+[RFC2930](http://tools.ietf.org/html/rfc2930),
+[RFC2845](http://www.iana.org/go/rfc2845),
+[RFC4635](http://tools.ietf.org/html/rfc4635),
+[RFC6672](http://tools.ietf.org/html/rfc6672),
+[RFC6891](http://tools.ietf.org/html/rfc6891),
+[RFC6895](http://tools.ietf.org/html/rfc6895)
 
 ## Usage
 
