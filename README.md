@@ -4,6 +4,8 @@
 ![Dependency Status](https://david-dm.org/rsandor/dns-rcodes.svg)
 ![DevDependency Status](https://david-dm.org/rsandor/dns-rcodes/dev-status.svg)
 
+[![NPM](https://nodei.co/npm/dns-rcodes.png?compact=true)](https://nodei.co/npm/dns-rcodes)
+
 Maps easy to remember names to DNS RCODE (response code) values.
 
 ## Usage
@@ -11,11 +13,14 @@ Maps easy to remember names to DNS RCODE (response code) values.
 ```js
 var rcodes = require('dns-rcodes');
 
-// Get the rcode for "No Error" (0)
+// Get the rcode for "No Error"
 var noErrorCode = rcodes.NoError;
 
-// Or get rcode for "Refused" (5)
+// How about if the lookup is "Refused"?
 var refusedCode = rcodes.Refused;
+
+// Doing TSIG? We got you...
+var badSignatureCode = rcodes.BadSignature;
 ```
 
 ## RCODEs
