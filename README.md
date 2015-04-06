@@ -5,14 +5,6 @@
 ![DevDependency Status](https://david-dm.org/rsandor/dns-rcodes/dev-status.svg)
 
 Maps easy to remember names to DNS RCODE (response code) values.
-<!-- ,
-,
-[RFC2930](http://tools.ietf.org/html/rfc2930),
-[RFC2845](http://www.iana.org/go/rfc2845),
-[RFC4635](http://tools.ietf.org/html/rfc4635),
-[RFC6672](http://tools.ietf.org/html/rfc6672),
-[RFC6891](http://tools.ietf.org/html/rfc6891),
-[RFC6895](http://tools.ietf.org/html/rfc6895) -->
 
 ## Usage
 
@@ -50,3 +42,28 @@ RCODE | Name | Description
 `8` | `NXRRSet` | Some RRset that ought to exist, does not exist.
 `9` | `NotAuth` |  The server is not authoritative for the zone named in the Zone Section.
 `10` | `NotZone` |  A name used in the Prerequisite or Update Section is not within the zone denoted by the Zone Section.
+
+### [RFC6891](http://tools.ietf.org/html/rfc6891)
+
+RCODE | Name | Description
+------|------|------------
+`16` | `BadVersion` | Requestor provided a version option not compatible with the server.
+
+### [RFC2845](http://tools.ietf.org/html/rfc2845)
+RCODE | Name | Description
+------|------|------------
+`16` | `BadSignature` | TSIG Signature Failure.
+`17` | `BadKey` | Key not recognized.
+`18` | `BadTime` | Signature out of time window.
+
+### [RFC2930](http://www.iana.org/go/rfc2930)
+RCODE | Name | Description
+------|------|------------
+`19` | `BadMode` | Incorrect TKEY mode.
+`20` | `BadName` | Duplicate TKEY name.
+`21` | `BadAlgorithm` | Algorithm not supported.
+
+### [RFC4635](http://www.iana.org/go/rfc4635)
+RCODE | Name | Description
+------|------|------------
+`22` | `BadTruncation` | Bad truncation.

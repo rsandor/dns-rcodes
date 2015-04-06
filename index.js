@@ -17,5 +17,21 @@ module.exports = {
   'YXRRSet': 7,
   'NXRRSet': 8,
   'NotAuth': 9,
-  'NotZone': 10
+  'NotZone': 10,
+
+  // Defined in RFC6891 (http://tools.ietf.org/html/rfc6891)
+  'BadVersion': 16,
+
+  // Defined in RFC2845 (http://tools.ietf.org/html/rfc2845)
+  'BadSignature': 16,
+  'BadKey': 17,
+  'BadTime': 18,
+
+  // Defined in RFC2930 (http://www.iana.org/go/rfc2930)
+  'BadMode': 19,
+  'BadName': 20,
+  'BadAlgorithm': 21,
+
+  // Defined in RFC4635 (http://www.iana.org/go/rfc4635)
+  'BadTruncation': 22
 };
