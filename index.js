@@ -8,7 +8,7 @@ module.exports = {
   'NoError': 0,
   'FormatError': 1,
   'ServerFailure': 2,
-  'NonExistentDomain': 3,
+  'NameError': 3,
   'NotImplemented': 4,
   'Refused': 5
 };

@@ -1,0 +1,27 @@
+{
+  "name": "dns-rcodes",
+  "version": "0.0.0",
+  "description": "Maps easy to remember names to DNS rcodes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v -c test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsandor/dns-rcodes.git"
+  },
+  "keywords": [
+    "dns",
+    "rcodes"
+  ],
+  "author": "Ryan Sandor Richards <sandor.richards@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsandor/dns-rcodes/issues"
+  },
+  "homepage": "https://github.com/rsandor/dns-rcodes",
+  "devDependencies": {
+    "code": "^1.4.0",
+    "lab": "^5.5.1"
+  }
+}
