@@ -1,4 +1,9 @@
 # dns-rcodes
+
+![Build Status](https://travis-ci.org/rsandor/dns-rcodes.svg?branch=master)
+![Dependency Status](https://david-dm.org/rsandor/dns-rcodes.svg)
+![DevDependency Status](https://david-dm.org/rsandor/dns-rcodes/dev-status.svg)
+
 Maps easy to remember names to DNS rcode (response code) values. The DNS rcodes
 exposed by the module are specified in the following RFCs:
 [RFC1035](http://tools.ietf.org/html/rfc1035),
